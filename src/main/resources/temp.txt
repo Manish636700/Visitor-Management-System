@@ -1,0 +1,29 @@
+
+
+   @NotNull
+    @Size(max=255)
+    private String name;
+
+    @NotNull
+    @Size(max=255)
+    private String email;
+
+    @NotNull
+    @Size(max=255)
+    private String phone;
+
+    @NotNull
+    @Size(max=255)
+    private String role;
+
+    @NotNull
+    private Userstatus  status;
+
+    @NotNull
+    private String idNumber;
+
+    private String flats;
+
+    private AddressDto addressDto;
+
+}
